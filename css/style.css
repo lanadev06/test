@@ -1,0 +1,12 @@
+a.nav-link {
+    position: relative;
+}
+
+a.nav-link:hover::before {
+    content: '';
+    position: absolute;
+    background-color: orange;
+    width: 70%;
+    height: 2px;
+    bottom: 0;
+}
